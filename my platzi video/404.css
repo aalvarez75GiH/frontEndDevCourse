@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    background:linear-gradient(#21C08B,#8f57fd);
+  }
+  
+  .header {
+    align-items: center;
+    background: linear-gradient(#21C08B);
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+    
+  }
+  
+  .header__img {
+    margin-left: 30px;
+    width: 200px;
+  }
+  
+  /*Estilos de la seccion Message 404*/
+  
+  .message__NotFound{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding: 0px 30px;
+    min-height: calc(100vh-200px);
+    padding-top: 90px;
+  }
+  
+  .text{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:#fff;
+    font-size: 120px;
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+  }
+  .animated{
+    animation-duration: 2.5sg;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  .pulse{
+  animation-name: pulse;
+  animation-duration: 1s;
+  }
+  @keyframes pulse{
+    0%{transform:scale(1)}
+    50%{transform:scale(1.1)}
+    100%{transform:scale(1)}
+  }
+  .message__NotFound--error-Message h1{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 74px;
+  }
+  .message__NotFound--error-Message h3{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Muli', sans-serif;
+    
+  
+  
+  }
+  
+  /*Estilo del footer*/
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    height: 100px;
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 150px;
+  }
+  
+  .footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .main__description--title {
+      font-size: 30px;
+    }
+  
+    .footer {
+      align-items: flex-start;
+      flex-direction: column;
+      
+    }
+  }
