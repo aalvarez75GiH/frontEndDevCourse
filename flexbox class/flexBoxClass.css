@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body
+{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    font-size: 16px;
+
+}
+.header
+{
+    /* outline: 1px solid black; */
+    height: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#eb4559,#f78259);
+    /* background-color:#eb4559; */
+    
+}
+
+
+.menu__item
+{
+    display: flex;
+    
+}
+.menu__item--item1
+{
+    list-style: none;
+    flex: 1;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s;
+    /* background-color: #202040; */
+    cursor: pointer;
+}
+.menu__item--item2
+{
+    list-style: none;
+    flex: 1;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s;
+    /* background-color: #c70039; */
+    cursor: pointer;
+}
+.menu__item--item3
+{
+    list-style: none;
+    flex: 1;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s;
+    /* background-color: #ea6227; */
+    cursor: pointer;
+}
+
+.menu__item--item1:hover
+{
+    flex: 8;
+    text-decoration: underline solid;
+}
+.menu__item--item2:hover{
+    flex: 8;
+    text-decoration: underline;
+}
+.menu__item--item3:hover{
+    flex: 8;
+    text-decoration: underline;
+}
+
+.container
+{
+    display: flex;
+    height: inherit;
+    background: linear-gradient(#f78259,#eb4559);
+    
+}
+
+.content
+{
+    /* outline: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;      */
+    color: white;
+    flex: 1;
+    /* background-color: #fdd998; */
+}
+.check
+{
+    
+    font-family: 'Pacifico', cursive;
+    color: white;
+   
+    margin-top: 0px;
+    font-size: 220px;
+
+}
+
+.button
+{
+   
+    background-color: rgba(255,255,255, 0.2);
+    /* background-color: white;*/
+    border:none;  
+    /* border-radius: 25px; */
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* margin: 10px 0px; */
+
+}
+.aside
+{
+    /* outline: 1px solid black; */
+    flex: 0 0 5%;
+    /* background-color: #f0a500; */
+}
+.footer 
+{
+    
+    margin-top: auto;
+    height: 6rem;
+    /* outline: 1px solid black; */
+    background-color: #0F4C81;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-footer
+{
+    display: flex;
+       
+}
+.footer-item{
+    list-style: none;
+    flex: 1;
+    line-height: 6rem;
+    text-align: center;
+    transition: flex 0.5s;
+    cursor: pointer;
+}
+.footer-item:hover
+{
+    flex: 3;
+    text-decoration: underline;
+}

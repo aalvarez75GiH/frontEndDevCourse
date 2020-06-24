@@ -1,129 +1,126 @@
-body
-{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-  .flexBoxMain
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border:solid black;
-    background-color: #21C08B;
-    color: white;
-    height: 800px;
-    width: 100%;
-  }
-  
 
-  .flexBoxMain__section1
-  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; 
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid black;
-    background-color: #fb9224;
-    height: 30%;
-    width: 98.9%%; 
-  }
-  
-  .flexBoxMain__section1--obj1
-  {
-    border: 1px solid greenyellow;
-    background-color: #b22222;
-    height: 60%;
-    width: 30%;
-  }
-  .flexBoxMain__section1--obj2
-  {
-    border: 1px solid red;
-    background-color: #2a1a5e;
-    height : 60%;
-    width: 30%;
-  }
-  .flexBoxMain__section1--obj3
-  {
-    border: 1px solid blue;
-    background-color: #512c62;
-    height : 60%;
-    width: 30%;
-  }
-  
-  .flexBoxMain__section2
-  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; 
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid black;
-    background-color: #fb9224;
-    height: 30%;
-    width: 98.9%%;  
-  }
-  .flexBoxMain__section2--obj4
-  {
-    border: 1px solid greenyellow;
-    background-color: #b22222;
-    height : 60%;
-    width: 30%;
-  }
-  .flexBoxMain__section2--obj5
-  {
-    border: 1px solid red;
-    background-color: #2a1a5e;
-    height : 60%;
-    width: 30%;
-  }
-  .flexBoxMain__section2--obj6
-  {
-    border: 1px solid blue;
-    background-color: #512c62;
-    height : 60%;
-    width: 30%;
-  }
+.flexBoxMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid black;
+  background-color: #21C08B;
+  color: white;
+  height: 800px;
+  width: 100%;
+}
 
-  .flexBoxMain__section3
-  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; 
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid black;
-    background-color: #fb9224;
-    height: 30%;
-    width: 98.9%;  
-  }
-  .flexBoxMain__section3--obj7
-  {
-    border: 1px solid greenyellow;
-    background-color: #b22222;
-    height : 60%;
-    width: 30%;
-  }
-  .flexBoxMain__section3--obj8
-  {
-    border: 1px solid red;
-    background-color: #2a1a5e;
-    height : 60%;
-    width: 30%;
-  }
-  .flexBoxMain__section3--obj9
-  {
-    border: 1px solid blue;
-    background-color: #512c62;
-    height : 60%;
-    width: 30%;
-  }
+.flexBoxMain__section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+  background-color: yellowgreen;
+  height: 30%;
+  width: 98.9%;
+}
 
+.flexBoxMain__section1--obj1 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #b22222;
+}
+
+.flexBoxMain__section1--obj2 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #2a1a5e;
+}
+
+.flexBoxMain__section1--obj3 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #512c62;
+}
+
+.flexBoxMain__section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+  background-color: yellowgreen;
+  height: 30%;
+  width: 98.9%;
+}
+
+.flexBoxMain__section2--obj4 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #b22222;
+}
+
+.flexBoxMain__section2--obj5 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #2a1a5e;
+}
+
+.flexBoxMain__section2--obj6 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #512c62;
+}
+
+.flexBoxMain__section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+  background-color: yellowgreen;
+  height: 30%;
+  width: 98.9%;
+}
+
+.flexBoxMain__section3--obj7 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #b22222;
+}
+
+.flexBoxMain__section3--obj8 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #2a1a5e;
+}
+
+.flexBoxMain__section3--obj9 {
+  height: 70%;
+  width: 30%;
+  border: 1px solid black;
+  background-color: #512c62;
+}
+
+/*# sourceMappingURL=FlexBoxTest.css.map */
+
+/*# sourceMappingURL=FlexBoxTest.css.map */
